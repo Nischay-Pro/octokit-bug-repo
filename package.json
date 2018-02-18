@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "@octokit/rest": "^14.0.9"
+    "@octokit/rest": "github:octokit/rest.js#736/raw-data-as-buffer",
+    "node-fetch": "^2.0.0"
   },
   "name": "octokit-bug-repo",
   "version": "1.0.0",
