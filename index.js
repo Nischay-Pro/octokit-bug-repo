@@ -9,7 +9,7 @@ let config = {
 
 async function
 test() {
-  const result = await octokit.issues.getForRepo(config);
+  const result = await octokit.repos.getArchiveLink(config);
   console.log(result);
 } 
 
